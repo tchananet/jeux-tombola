@@ -1,12 +1,12 @@
 export const ListOfQuestions = [
   {
     id: 1,
-    question: "Pourquoi la Journée Internationale de la Femme est-elle célébrée chaque année le 8 mars ?",
+    question: "Quel est le thème pour la Journée internationale des femmes 2025 ?",
     answers: [
-      { text: "Pour célébrer les réalisations des femmes et sensibiliser aux inégalités de genre", correct: true },
-      { text: "Pour fêter les femmes de la royauté", correct: false },
-      { text: "Pour organiser des défilés et des festivités", correct: false },
-      { text: "Pour marquer la fin de l’hiver", correct: false },
+      { text: "L'autonomisation par l'unité", correct: false },
+      { text: "Pour toutes les femmes et les filles : Droits. Égalité. Autonomisation", correct: false },
+      { text: "L'égalité pour toutes", correct: false },
+      { text: "Les droits des femmes comptent", correct: false },
     ],
   },
   {
@@ -71,12 +71,12 @@ export const ListOfQuestions = [
   },
   {
     id: 8,
-    question: "Quelle marque automobile a un logo qui représente une femme, en référence à l’esprit de liberté et d'indépendance ?",
+    question: "Pourquoi la Journée Internationale de la Femme est-elle célébrée chaque année le 8 mars ?",
     answers: [
-      { text: "BMW", correct: false },
-      { text: "Mercedes-Benz (anciennement)", correct: true },
-      { text: "Audi", correct: false },
-      { text: "Renault", correct: false },
+      { text: "Pour célébrer les réalisations des femmes et sensibiliser aux inégalités de genre", correct: true },
+      { text: "Pour fêter les femmes de la royauté", correct: false },
+      { text: "Pour organiser des défilés et des festivités", correct: false },
+      { text: "Pour marquer la fin de l’hiver", correct: false },
     ],
   },
   {
@@ -117,6 +117,16 @@ export const ListOfQuestions = [
       { text: "Volkswagen Beetle", correct: true },
       { text: "Tesla Model S", correct: false },
       { text: "Rolls-Royce Phantom", correct: false },
+    ],
+  },
+  {
+    id: 13,
+    question: "Quelle marque automobile a un logo qui représente une femme, en référence à l’esprit de liberté et d'indépendance ?",
+    answers: [
+      { text: "BMW", correct: false },
+      { text: "Mercedes-Benz (anciennement)", correct: true },
+      { text: "Audi", correct: false },
+      { text: "Renault", correct: false },
     ],
   }
 ];
